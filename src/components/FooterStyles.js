@@ -5,7 +5,12 @@ padding: 80px 60px;
 background: black;
 position: absolute;
 bottom: 0;
-width: 100%;
+width: 100%;    
+background-attachment: scroll;
+background-position: 0% 0%;
+position: fixed;
+bottom: 0pt;
+left: 0pt;
 
 
 @media (max-width: 1000px) {
@@ -22,7 +27,7 @@ export const Container = styled.div`
 	/* background: red; */
 `
 
-export const Column = styled.div`
+export const Column = styled.div`  
 display: flex;
 flex-direction: column;
 text-align: left;

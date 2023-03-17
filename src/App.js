@@ -13,6 +13,7 @@ ServicesThree,
 import { Events, EventsOne, EventsTwo } from "./pages/Events";
 import Contact from "./pages/ContactUs";
 import Support from "./pages/Support";
+import {Home} from "./pages/Home";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Router>
       <Sidebar />
       <Routes>
+        <Route path='/' element={<Home/>} />
         <Route path='/about-us' element={<AboutUs/>} />
         <Route path='/about-us/aim' element={<OurAim/>} />
         <Route path='/about-us/vision' element={<OurVision/>} />

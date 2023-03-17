@@ -7,13 +7,14 @@ Column,
 FooterLink,
 Heading,
 } from "./FooterStyles";
+import "./Footer.css";
 
 const Footer = () => {
 return (
 	<Box>
 	<h1 style={{ color: "green",
 				textAlign: "center",
-				marginTop: "-50px" }}>
+				marginTop: "-40px" }}>
 		Company - Slogan
 	</h1>
 	<Container>
