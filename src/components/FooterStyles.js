@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
+margin-top: auto;
 padding: 80px 60px;
 background: black;
-position: absolute;
-bottom: 0;
 width: 100%;
+min-height: 100vh;
 
 
 @media (max-width: 1000px) {
@@ -18,7 +18,7 @@ export const Container = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	max-width: 1000px;
-	margin: 0 auto;
+	margin-top: auto;
 	/* background: red; */
 `
 
@@ -26,8 +26,7 @@ export const Column = styled.div`
 display: flex;
 flex-direction: column;
 text-align: left;
-margin-left: 60px;
-`;
+`
 
 export const Row = styled.div`
 display: grid;

@@ -1,10 +1,11 @@
 import React from 'react';
-import './Home.css';
+import Content from '../components/Content';
 
 export const Home = () => {
     return (
-        <div className="App-header">
-        <h1> Home</h1>
+        <div>
+        <h1>Home</h1>
+        <Content />
         </div>
     );
 };

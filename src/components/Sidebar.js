@@ -33,7 +33,7 @@ justify-content: center;
 position: fixed;
 top: 0;
 left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
-transition: 350ms;
+transition: 590ms;
 z-index: 10;
 `;
 

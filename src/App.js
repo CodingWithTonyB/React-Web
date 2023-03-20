@@ -13,12 +13,12 @@ ServicesThree,
 import { Events, EventsOne, EventsTwo } from "./pages/Events";
 import Contact from "./pages/ContactUs";
 import Support from "./pages/Support";
-import {Home} from "./pages/Home";
+import {Home} from "./pages/Home"; 
+import Content from './components/Content';
 
 function App() {
   return (
-    <div>
-      <Footer />
+    <div className='App'>
       <Router>
       <Sidebar />
       <Routes>
@@ -38,6 +38,7 @@ function App() {
         <Route path='/support' element={<Support/>} />
       </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

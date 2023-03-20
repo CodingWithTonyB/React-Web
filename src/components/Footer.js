@@ -13,9 +13,10 @@ return (
 	<Box>
 	<h1 style={{ color: "green",
 				textAlign: "center",
-				marginTop: "-40px" }}>
+				marginTop: "-50px" }}>
 		Company - Slogan
 	</h1>
+	<br />
 	<Container>
 		<Row>
 		<Column>
